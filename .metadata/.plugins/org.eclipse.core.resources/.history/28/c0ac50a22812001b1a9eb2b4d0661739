@@ -1,0 +1,28 @@
+package polimorfismo;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class Exercicio_Collection {
+	
+	public static void main(String[] args) {
+	
+	Collection<String> produtos = new ArrayList();
+	
+	produtos.add("Bolo de chocolate trufado");
+	produtos.add("Bolo de chocolate com nozes");
+	produtos.add("Bolo de frutas vermelhas");
+	
+
+	
+	System.out.println("MENU");
+for(String menu : produtos) {
+	
+	System.out.println(menu);
+}
+	
+	
+
+	
+	}
+}

@@ -1,0 +1,14 @@
+package Entidades;
+
+public class AlgasProtozoarios extends Taxonomia {
+
+	
+
+	
+	public AlgasProtozoarios(String reino, String filo, String classe, String ordem, String familia, String genero, String especie) {
+		super(reino,filo,classe,ordem,familia,genero,especie);
+		
+	}
+
+	
+}

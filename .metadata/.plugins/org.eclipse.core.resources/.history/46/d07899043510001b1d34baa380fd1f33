@@ -1,0 +1,11 @@
+package Entidades;
+
+public class Vegetais {
+	
+	private String nome;
+	
+	
+	
+	
+
+}

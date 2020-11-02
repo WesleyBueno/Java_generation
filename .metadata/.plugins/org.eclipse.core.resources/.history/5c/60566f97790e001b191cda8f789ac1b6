@@ -1,0 +1,24 @@
+package orientacaoObjeto;
+
+public class Cliente {
+	
+	private String RODAS;
+	private String marca;
+	private String preco;
+	private String cor;
+
+	
+		public Cliente (String nome, String cpf, String rg) {
+			
+			nome =nome;
+			cpf = cpf;
+			rg =rg;
+		}
+		
+		public String getCl() {
+			
+			
+			return "Patinete [Rodas ="+RODAS+",marca="+marca+"preco="+preco+"cor="+cor+"]";
+			
+		}
+}

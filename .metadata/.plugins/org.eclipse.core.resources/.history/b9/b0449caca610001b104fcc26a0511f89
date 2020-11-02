@@ -1,0 +1,37 @@
+package Entidades;
+
+
+public class Animais extends Taxonomia{
+	
+	private String nome;
+	
+public Animais(String nome,String reino, String filo, String classe, String ordem, String familia, String genero, String especie){
+			super(reino,filo,classe,ordem,familia,genero,especie);
+	}
+
+
+
+public String getNome() {
+	return nome;
+}
+
+
+
+public void setNome(String nome) {
+	this.nome = nome;
+}
+
+
+
+@Override
+public void Info() {
+	
+	
+	System.out.println("Nome comum: "+getNome()+"\nReino:"+ getReino() + "\nFilo: "+ getFilo() + "\nClasse: "+ getClasse() +"\nOrdem: "+ getOrdem() +"Familia: "+ getFamilia() +"\nGenero: "+ getGenero() +"\nEspecie: "+ getEspecie());
+	
+	
+}
+
+
+
+}

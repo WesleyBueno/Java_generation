@@ -1,0 +1,26 @@
+package orientacaoObjeto;
+
+public class aviao {
+	
+	private String bancos;
+	private String passageiro;
+	private String piloto;
+	
+	
+	public void Aviao (String bancos , String passageiro, String piloto) {
+		
+		bancos =bancos;
+		passageiro = passageiro;
+		piloto = piloto;
+	}
+	
+	public String getAviao() {
+		
+		String aviao =bancos+" "+passageiro+" "+piloto;
+		return aviao;
+		
+	}
+
+}
+	
+

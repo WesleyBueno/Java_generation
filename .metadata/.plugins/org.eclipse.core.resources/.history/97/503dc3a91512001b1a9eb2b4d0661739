@@ -1,0 +1,31 @@
+package exemplos;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+
+public class Collection1 {
+
+	public static void main(String[] args) {
+		
+Collection<String> nomes = Arrays.asList("Flávia","Joaquina");
+
+nomes.add("Matheus");
+nomes.add("Carlos");
+nomes.add("Lucifer");
+nomes.add("Angela");
+nomes.add("Miriam");
+nomes.add("Sebastian");
+
+
+Collection<String> nomes2 = ();
+
+//nomes.contains("Miriam"); //Procura no array uma informação e retorna true ou false
+//nomes.clear();            //Limpa todas as posições do array
+//nomes.remove("Carlos");	//Limpa uma informação especifica do Array.
+
+System.out.println("Lista de nomes: "+nomes+nomes.contains("Miriam"));
+
+	}
+
+}

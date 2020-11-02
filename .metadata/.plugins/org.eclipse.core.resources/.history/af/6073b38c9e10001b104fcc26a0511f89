@@ -1,0 +1,12 @@
+package Reinos;
+
+public class Animalia {
+	
+	private String habitantes;
+	
+	public Animalia(String habitantes) {
+		
+	}
+	
+
+}

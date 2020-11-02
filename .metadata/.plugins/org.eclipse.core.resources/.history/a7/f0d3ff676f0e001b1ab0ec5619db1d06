@@ -1,0 +1,5 @@
+package orientacaoObjeto;
+
+public class Cliente extends lista4_exercicio1 {
+
+}

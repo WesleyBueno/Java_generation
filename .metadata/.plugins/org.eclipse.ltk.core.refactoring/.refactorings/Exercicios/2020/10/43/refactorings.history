@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;polimorfismo.Exercicio_Collection&apos; to &apos;teste_Collection&apos;&#x0D;&#x0A;- Original project: &apos;Exercicios&apos;&#x0D;&#x0A;- Original element: &apos;polimorfismo.Exercicio_Collection&apos;&#x0D;&#x0A;- Renamed element: &apos;polimorfismo.teste_Collection&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Exercicio_Collection&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;polimorfismo{Exercicio_Collection.java[Exercicio_Collection" matchStrategy="1" name="teste_Collection" qualified="false" references="true" similarDeclarations="false" stamp="1603124682977" textual="false" version="1.0"/>
+</session>

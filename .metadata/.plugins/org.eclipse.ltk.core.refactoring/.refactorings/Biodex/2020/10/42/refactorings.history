@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Entidades.Bacterias&apos; to &apos;BacteriasCianobacterias&apos;&#x0D;&#x0A;- Original project: &apos;Biodex&apos;&#x0D;&#x0A;- Original element: &apos;Entidades.Bacterias&apos;&#x0D;&#x0A;- Renamed element: &apos;Entidades.BacteriasCianobacterias&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Bacterias&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Entidades{Bacterias.java[Bacterias" matchStrategy="1" name="BacteriasCianobacterias" qualified="false" references="true" similarDeclarations="false" stamp="1602895283451" textual="false" version="1.0"/>
+</session>

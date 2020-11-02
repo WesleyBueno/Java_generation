@@ -1,0 +1,11 @@
+package Entidades;
+
+i
+
+public class Animais extends Taxonomia{
+	private String nome;
+	
+public Animais(String reino, String filo, String classe, String ordem, String familia, String genero, String especie, String nome){
+			super(reino,filo,classe,ordem,familia,genero,especie);
+	}
+}

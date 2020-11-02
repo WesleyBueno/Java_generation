@@ -1,0 +1,7 @@
+package Reinos;
+
+public class Monera {
+	
+	private String habitantes;
+
+}

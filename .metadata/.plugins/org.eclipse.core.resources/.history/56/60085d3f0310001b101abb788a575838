@@ -1,0 +1,21 @@
+package polimorfismo;
+
+public class Cachorro extends Animal{
+	
+	private String tipoMovimento;
+	private String som;
+
+	public String getTipoMovimento() {
+		return tipoMovimento;
+	}
+
+	public void setTipoMovimento(String tipoMovimento) {
+		this.tipoMovimento = tipoMovimento;
+	}
+	
+		public Cachorro(String nome, int idade, String som, String tipoMovimento) {
+			super(nome,idade);
+		}
+	
+
+}

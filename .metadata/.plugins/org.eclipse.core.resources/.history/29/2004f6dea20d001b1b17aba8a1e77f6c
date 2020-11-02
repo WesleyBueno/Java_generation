@@ -1,0 +1,34 @@
+package Jv;
+
+import java.util.Scanner;
+
+public class sorteiaGrupos {
+
+	public static void main(String[] args) {
+		
+		//Um algoritmo que sorteie grupos de 2 até 8 alunos.
+		
+		final int LIMITE = 39;
+		String listaAlunos[] ={"Bruna dos Santos","BRUNO CORREIA DA COSTA","BRUNO DE FREITAS SOUSA","Carla Cristina Conceição de Paula",
+				"Christian Garcia Amantino","Cleiton Ortega dos Santos","Debora Miranda Carmona",
+				"Everton Luiz Rosário de Oliveira","GABRIEL REIS RITTER","Gildenor Junior da Silva Costa",
+				"Guilherme Marcionilo Pedroso do Rosario Silva","Herick Willians Canhete Rocha","Jacqueline Alves Barbosa",
+				"João Victor dos Santos Rigoleto","Jonas De Oliveira Santos","JONATHAN CAVALCANTI DE PAULA","Juliana Cavalaro de Oliveira",
+				"Karina Soares Lima","Larissa Meira Dominguez","Leonardo Iamur Terra","Lysandro Andrade Martin","Matheus Araujo de moraes",
+				"Matheus Fernandes Rodrigues","Matheus Trindade Torok","Mônica dos santos ribeiro","Natália Lopes moreno",
+				"Phelipe Almeida de Souza","Rafaela de Albuquerque","Ricardo Martins Corrêa","SARAH LIDIA DE OLIVEIRA BRAIA",
+				"Stefanie Dias Costa","Tiago Diniz Gomes","Victor Augusto de Souza Tavares","Vivian Rodrigues Nakano",
+				"Washington pereira dos santos","Wellington Vieira","Wesley Bueno da Silva","Yago Tonoli Domingues",
+				"Zaine de Queiros Jesus"};
+		
+		int qnt =0;
+	
+				Scanner leia = new Scanner(System.in);
+				
+				System.out.println("Quantos membros por grupo?");
+				qnt = leia.nextInt();
+				
+				
+	}
+
+}

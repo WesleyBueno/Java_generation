@@ -1,0 +1,10 @@
+package polimorfismo;
+
+public class Exercicio_polimorfismo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

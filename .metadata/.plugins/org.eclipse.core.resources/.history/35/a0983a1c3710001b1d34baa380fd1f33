@@ -1,0 +1,27 @@
+package Entidades;
+
+public class BacteriasCianobacterias extends Taxonomia {
+
+	
+private String nome;
+	
+	public BacteriasCianobacterias(String reino, String filo, String classe, String ordem, String familia, String genero, String especie, String nome) {
+		super(reino,filo,classe,ordem,familia,genero,especie);
+		
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	@Override
+	public void info() {
+		
+		System.out.println(.getReino());
+	}
+	
+}

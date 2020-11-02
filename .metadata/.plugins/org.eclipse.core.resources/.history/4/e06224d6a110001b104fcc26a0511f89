@@ -1,0 +1,19 @@
+package Entidades;
+
+
+public class Animais extends Taxonomia{
+	
+public Animais(String reino, String filo, String classe, String ordem, String familia, String genero, String especie){
+			super(reino,filo,classe,ordem,familia,genero,especie);
+	}
+
+@Override
+public void info() {
+	
+	System.out.println( getReino() + getFilo() + getClasse() + getOrdem() + getFamilia() + getGenero() + getEspecie());
+	
+}
+
+
+
+}
